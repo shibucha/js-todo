@@ -1,0 +1,43 @@
+.done {
+    text-decoration: line-through;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    transform: translateY(100px);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.todoText {
+    outline: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 400px;
+    height: 30px;
+}
+
+.add-btn {
+    background: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: aliceblue;
+    outline: none;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    background-color: aquamarine;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
